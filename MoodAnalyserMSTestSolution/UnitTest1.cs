@@ -9,8 +9,8 @@ namespace MoodAnalyserMSTestSolution
         public void MoodAnalyserTest()
         {
             //Arrange
-            string except = "HAPPY";
-            string message = "I am in Happy mood";
+            string except = "SAD";
+            string message = "I am in Sad mood";
             MoodAnalyser moodAnalyser = new MoodAnalyser(message);
 
             //Act
